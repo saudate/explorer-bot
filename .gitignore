@@ -1,0 +1,15 @@
+# Environment variables — never commit real keys
+.env
+
+# Generated test case output — ignore everything except the folder itself
+test-cases/*
+!test-cases/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
